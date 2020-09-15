@@ -1,0 +1,188 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Ingenieria Social - Grupo 1</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="codelab-4-codelab-markdown"
+                  title="Ingenieria Social - Grupo 1"
+                  environment="web"
+                  feedback-link="https://github.com/Mrc0113/codelab-4-codelab">
+    
+      <google-codelab-step label="Introducción" duration="2">
+        <p><strong>Ingeniería Social</strong></p>
+<p>La <a href="https://latam.kaspersky.com/resource-center/definitions/what-is-social-engineering" target="_blank">Ingeniería Social</a> tiene un papel fundamental en una gran cantidad de ciberataques, más allá de lo grande, pequeño o sofisticado que sea el crimen.</p>
+<p>Se basa en la manipulación psicológica, es decir, intenta lograr que las demás personas hagan las cosas que uno quiere que hagan. Por ejemplo, podrías manipular a un policía de tránsito para evitar pagar la multa de un vehículo mal estacionado, o adular a tu empleador para obtener un aumento salarial.</p>
+<p>En el contexto del crimen cibernético, es ampliamente descrito como un método no técnico utilizado por los cibercriminales para obtener información, realizar fraudes u obtener acceso ilegítimo a los equipos de las víctimas. La Ingeniería Social se basa en la interacción humana y está impulsada por personas que usan el engaño con el fin de violar los procedimientos de seguridad que normalmente deberían haber seguido.</p>
+<p><strong>Tipos de ataque de Ingeniería Social</strong></p>
+<p>La Ingeniería Social es un fenómeno muy amplio, ya que pueden utilizarse diferentes tipos de técnicas para engañar a una persona.</p>
+<p>Tal y como recomiendan los Profesores Expertos en Inteligencia y Ciberseguridad, para poder comprender todas las actividades de ingeniería social es necesario hacer dos grupos: ataques personales y ataques escalables.</p>
+<p>El primero estará integrado por todos aquellos ataques que el ingeniero social debe realizar personalmente, mientras que el segundo grupo estará compuesto por todos aquellos ataques que se llevan a cabo de forma automática, escalable y telemática.</p>
+<p><strong>Ataques de ingeniería social personales</strong></p>
+<ul>
+<li><code>PRETEXTING</code></li>
+<li><code>DUMPSTER DIVING</code></li>
+<li><code>SHOULDER SURFING</code></li>
+<li><code>BAITING</code></li>
+</ul>
+<p><strong>Ataques de ingeniería social escalables</strong></p>
+<ul>
+<li><code>PHISHING</code></li>
+<li><code>SMISHING</code></li>
+<li><code>VISHING</code></li>
+<li><code>SEXTORSION</code></li>
+</ul>
+<p class="image-container"><img alt="image_caption" src="img\1a3c081682a3afff.jpg"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Herramientas" duration="4">
+        <h3 is-upgraded>Kali Linux</h3>
+<p><a href="https://www.kali.org" target="_blank">Kali Linux</a> es la versión mejorada y renovada de la distro BackTrack, creada por Offensive Segurity. La distro se basa en Debian, mientras que Backtrack se fijó en Ubuntu para la creación de su programación.</p>
+<p>Su principal objetivo es poner a disposición del usuario, las mejores herramientas para trabajar la auditoría en internet y contar con un potente sistema de seguridad informática ante los peligros que puedan existir. In order to create a CodeLab you need <em>Go</em> and <em>claat</em> (the codelabs command line tool) installed. <img alt="image_caption" src="img\90b14878c115afac.png"></p>
+<p><strong>Ventajas</strong></p>
+<ol type="1">
+<li>Es gratis.</li>
+<li>Multilenguaje .</li>
+<li>Totalmente personalizable.</li>
+<li>Entorno de desarrollo seguro.</li>
+<li>Se han añadido nuevas herramientas y actualizado las existentes.</li>
+</ol>
+<p><strong>Desventajas</strong></p>
+<ol type="1">
+<li>No siempre están todos los drivers disponibles, aunque se ha avanzado mucho al respecto.</li>
+<li>Los desarrolladores de juegos de PC no suelen hacer versiones comerciales para GNU/Linux.</li>
+<li>Entre las contras de Linux, es que no es para principiantes, ya que no ofrece un uso tan intuitivo como las distribuciones de Microsoft y Macintosh.</li>
+</ol>
+<h3 is-upgraded>Herramienta BeEF</h3>
+<p><a href="https://beefproject.com" target="_blank">BeEF</a> es la abreviatura de The Browser Exploitation Framework. Es una herramienta de prueba de penetración que se centra en el navegador web.</p>
+<p class="image-container"><img alt="image_caption" src="img\7d0b585ec0906795.jpg"></p>
+<p>En medio de las crecientes preocupaciones sobre los ataques transmitidos por la web contra clientes, incluidos los clientes móviles, BeEF permite que el probador de penetración profesional evalúe la postura de seguridad real de un entorno objetivo mediante el uso de vectores de ataque del lado del cliente. A diferencia de otros marcos de seguridad, BeEF mira más allá del perímetro de red endurecido y el sistema del cliente, y examina la explotabilidad dentro del contexto de una puerta abierta: el navegador web. BeEF enganchará uno o más navegadores web y los usará como cabezas de playa para lanzar módulos de comando dirigido y ataques adicionales contra el sistema desde el contexto del navegador.</p>
+<pre><code>* Autor: Wade Alcorn
+* Licencia: GPLv2
+* Source: https://beefproject.com/
+* BeEF Homepage | Kali BeEF Repo
+</code></pre>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Caso de Estudio" duration="2">
+        <p class="image-container"><img alt="image_caption" src="img\c86e6e1e691a804d.jpg"></p>
+<p>El gerente de la empresa &#34;Y&#34; desea evaluar la situación de seguridad informática actual de la empresa, por tal motivo contrata un profesional en informática forense para que evalué la situación, el cual recomienda comenzar por evaluar la forma de actuar de los empleados y si son capaces de reconocer un ataque y tomar las medidas de seguridad pertinentes, también se desea verificar la seguridad que disponen las computadoras y sus navegadores web ante él tipo de ataque de Web Hooking. El profesional plantea hacer uso de técnicas de ingeniería social para intentar engañar y convencer a los empleados que se conecten a su página web y una vez realizada la conexión por medio de web hooking comprometer el navegador web de la víctima, el propósito del ataque es contabilizar el número de víctimas y en base a esto brindar medidas de seguridad a la empresa.</p>
+<p>Para que el profesional se mantenga en el marco legal y no incurra en un delito contemplado en el COIP, se firma un contrato entre el gerente y el profesional en informática forense en el cual el gerente firma una autorización para que el profesional pueda hacer un ataque de web hooking utilizando la herramienta BeEF de Kali Linux sin conservar ningún dato de la empresa y de los empleados. El profesional se compromete a mantener la confidencialidad de toda información que encuentre por medio del ataque, ya sea de la empresa y/o información personal del empleado, y a deshacerse de cualquier dato interceptado.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Desarrollo" duration="5">
+        <aside class="special"><p>1. Abrir la herramienta BeEF xss framework, en KaliLinux se encuentra ubicada en aplicaciones, herramientas de explotación.</p>
+</aside>
+<p class="image-container"><img alt="image_caption" src="img\af6df2498e4658b5.png"></p>
+<aside class="warning"><p>2. Ingresar el password para el usuario BeEF y esperar que se abra el navegador con la página de BeEF</p>
+</aside>
+<p class="image-container"><img alt="image_caption" src="img\5f4a1f4d0e87ecfb.png"></p>
+<aside class="special"><p>3. Iniciar sesión con usuario ‘beef&#39; y el password ingresado.</p>
+</aside>
+<p class="image-container"><img alt="image_caption" src="img\39af82928e123c02.png"></p>
+<aside class="warning"><p>4. Se ingresa a la página de BeEF el cual contiene todas las opciones de la herramienta.</p>
+</aside>
+<p class="image-container"><img alt="image_caption" src="img\e8e0da33e34691fd.png"></p>
+<aside class="special"><p>5. Iniciar el servidor apache para que las víctimas se conecten a la página web que se preparará para el ataque.</p>
+</aside>
+<p class="image-container"><img alt="image_caption" src="img\317bb48856cca1b8.png"></p>
+<aside class="warning"><p>6. Buscar una página http que se desee clonar para subir al servidor apache insertando el script malicioso. Una vez seleccionada la página web desde el navegador de mozilla firefox, presionamos alt y aparecerá las opciones de la página, dar click en file y save page as.</p>
+</aside>
+<p class="image-container"><img alt="image_caption" src="img\de140c3a9dabb66f.png"></p>
+<aside class="special"><p>7. Guardar la página web en el directorio var/www/html/</p>
+</aside>
+<p class="image-container"><img alt="image_caption" src="img\c9088eb0234d8c20.png"></p>
+<aside class="warning"><p>8. Abrir el index de la página web clonada e insertar el script de BeEF en la sección de head, el script se lo encuentra en la terminal de BeEF.</p>
+</aside>
+<p class="image-container"><img alt="image_caption" src="img\ac3f00e14077cc5d.png"></p>
+<p class="image-container"><img alt="image_caption" src="img\2771f6fbd37df4f9.png"></p>
+<aside class="special"><p>9. En el control de panel de BeEF abierto en una pestaña del navegador se puede visualizar la lista de víctimas que han abierto la página web con el script malicioso</p>
+</aside>
+<p class="image-container"><img alt="image_caption" src="img\7a25ebe06836e109.png"></p>
+<p class="image-container"><img alt="image_caption" src="img\96021f353989ff0d.png"></p>
+<aside class="warning"><p>10. En la sección de module tree de la herramienta de BeEF se puede hacer uso de los distintos comandos que dispone la herramienta, para este caso se usa el comando para crear un mensaje de alerta y enviarlo a la víctima.</p>
+</aside>
+<p class="image-container"><img alt="image_caption" src="img\1ca0e81b44cbf807.png"></p>
+<aside class="special"><p>11. En la máquina de la víctima se puede observar el mensaje de alerta que llega desde la máquina del atacante, el mensaje de alerta dice &#34;INFORMATICA FORENSE&#34;.</p>
+</aside>
+<p class="image-container"><img alt="image_caption" src="img\8b2242f14f3a49b1.png"></p>
+<h3 is-upgraded>Video Demostrativo</h3>
+<p>En el siguiente enlace encontrará un video tutorial de como se realizó en ataque de Ingenieria Social a la Página Web</p>
+<aside class="warning"><p><a href="https://www.youtube.com/watch?v=329peDCcfZI&feature=youtu.be" target="_blank">Video Tutorial Ingeniería Social</a></p>
+</aside>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Informe Pericial" duration="2">
+        <p class="image-container"><img alt="image_caption" src="img\381984a14de67f19.JPG"></p>
+<p class="image-container"><img alt="image_caption" src="img\8da451b408ad0f22.JPG"></p>
+<p class="image-container"><img alt="image_caption" src="img\cfacc5be893a1d62.JPG"></p>
+<p class="image-container"><img alt="image_caption" src="img\33d640baf4eadfc9.JPG"></p>
+<p class="image-container"><img alt="image_caption" src="img\254fd7554e4756b0.JPG"></p>
+<p class="image-container"><img alt="image_caption" src="img\3b81f5d9c60ad273.JPG"></p>
+<p class="image-container"><img alt="image_caption" src="img\663dfafda11d8dae.JPG"></p>
+<p class="image-container"><img alt="image_caption" src="img\d20f029209d2f6ca.JPG"></p>
+<p class="image-container"><img alt="image_caption" src="img\a015c47a9f8266f5.JPG"></p>
+<p class="image-container"><img alt="image_caption" src="img\26aa8cb3f2deae1f.JPG"></p>
+<p class="image-container"><img alt="image_caption" src="img\45245bfcb3d45e87.JPG"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Conclusiones" duration="2">
+        <ul>
+<li>La ingeniería social es una de las formas más efectivas para obtener información de la víctima, por lo cual se debe capacitar a las personas, para que no sean víctimas de este tipo de ataques como web Hooking o phising, sobre todo las empresas deben capacitar a sus empleados para que no haya fuga de información importante que pueda afectar negativamente a una empresa.</li>
+<li>Los ataques se vuelven más fácil de realizar en una red LAN, por lo que se debe implementar seguridades en la red, puesto que muchas veces los atacantes son los propios integrantes de una organización.</li>
+<li>Con la práctica realizada se puede concluir que los dispositivos más vulnerables son los celulares al no poseer un antivirus y defensas como una computadora, el ataque en las computadoras fue detenido por el antivirus, en el caso de la computadora que tenía Kali Linux y no poseía un antivirus el ataque se realizó con éxito al igual que en los celulares.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Referencias" duration="1">
+        <p>[1] Kali. (2020). BeEF Package Description. Obtenido de: https://tools.kali.org/exploitation-tools/beef-xss</p>
+<p>[2] Widrog. (2014). INTRODUCIENDONOS A THE BROWSER EXPLOITATION FRAMEWORK (BEEF) CON KALI LINUX. Obtenido de https://widrogo.wordpress.com/2014/01/14/introduciendonos-a-the-browser-exploitation-framework-beef-con-kali-linux/#:~:text=Introduciendonos%20a%20The%20Browser%20Exploitation%20Framework%20(BeEF)%20con%20 Kali%20Linux,-Est%C3%A1ndar&amp;text=La%20BeEF%20es%20la%20abreviatura,centra%20en%20el%20navegador%20web</p>
+<pre><code>* Autores: Amendaño - Bejarano - Ayala
+* Materia: Informática Forense
+* Enlace: https://www.youtube.com/watch?v=329peDCcfZI&amp;feature=youtu.be
+* UFA - ESPE | Ingeniería Social
+</code></pre>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
